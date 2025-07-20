@@ -1,0 +1,28 @@
+.market-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.market-section .description-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.market-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 75px;
+}
+.market-item .market-name {
+  font-size: 24px;
+  font-weight: 700;
+}
+.market-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.market-item .circle {
+  width: 54px;
+  height: 54px;
+}

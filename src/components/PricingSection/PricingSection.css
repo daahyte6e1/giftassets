@@ -1,0 +1,42 @@
+.pricing-section {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-section p {
+  margin: 0;
+}
+
+.pricing-table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+.pricing-table p {
+  font-size: 24px;
+}
+
+.pricing-row {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.pricing-row div {
+  display: flex;
+  flex-direction: column;
+}
+.pricing-row .name {
+  font-size: 18px;
+}
+.pricing-row .value {
+  font-size: 36px;
+}
+
+.pricing-row .left-block {
+  align-items: flex-start;
+}
+
+.pricing-row .right-block {
+  align-items: flex-end;
+}

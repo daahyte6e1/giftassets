@@ -1,0 +1,116 @@
+html, body {
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.landing-root {
+  max-width: 100vw;
+  gap: 75px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #5D00D7 0%,
+    #121212 25%,
+    #121212 75%,
+    #5D00D7 100%
+  );
+  color: #fff;
+  padding: 25px 20px;
+}
+.landing-header {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.menu-icon {
+  font-size: 1.5rem;
+  margin-right: 12px;
+}
+.logo-text {
+  letter-spacing: 1px;
+}
+.intro-section {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-section h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+.intro-desc {
+  font-size: 18px;
+  margin: 0;
+  opacity: .75;
+}
+.landing-main {
+  gap: 75px;
+  display: flex;
+  flex-direction: column;
+}
+.intro-buttons {
+  display: flex;
+  gap: 12px;
+}
+.intro-buttons button {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 22px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.intro-buttons .secondary {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+.tech-section p, .advantages-section p, .market-section p, .team-section p, .api-section p {
+  margin: 0;
+}
+.tech-section h2, .advantages-section h2, .market-section h2, .team-section h2, .api-section h2 , .pricing-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.landing-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 0 10px 0;
+  font-size: 1rem;
+  color: #fff;
+  gap: 10px;
+}
+.landing-footer a {
+  color: #fff;
+  opacity: 0.85;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+.landing-footer a:hover {
+  opacity: 1;
+}
+
+.card-block {
+  background: #313131;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
