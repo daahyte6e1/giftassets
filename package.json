@@ -7,7 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "pm2 start ecosystem.config.js",
+    "start:dev": "pm2 start ecosystem.dev.config.js",
+    "stop": "pm2 stop giftassets",
+    "stop:dev": "pm2 stop giftassets-dev",
+    "restart": "pm2 restart giftassets",
+    "restart:dev": "pm2 restart giftassets-dev",
+    "delete": "pm2 delete giftassets",
+    "delete:dev": "pm2 delete giftassets-dev",
+    "logs": "pm2 logs giftassets",
+    "logs:dev": "pm2 logs giftassets-dev",
+    "monit": "pm2 monit"
   },
   "dependencies": {
     "react": "^19.1.0",
