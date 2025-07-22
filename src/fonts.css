@@ -1,8 +1,12 @@
 /* SF Pro Display - Regular */
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('/fonts/SF-Pro-Display-Regular.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Display-Regular.woff') format('woff');
+  src: local('SF Pro Display'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,8 +15,12 @@
 /* SF Pro Display - Medium */
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('/fonts/SF-Pro-Display-Medium.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Display-Medium.woff') format('woff');
+  src: local('SF Pro Display'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -21,8 +29,12 @@
 /* SF Pro Display - Semibold */
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('/fonts/SF-Pro-Display-Semibold.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Display-Semibold.woff') format('woff');
+  src: local('SF Pro Display'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -31,8 +43,12 @@
 /* SF Pro Display - Bold */
 @font-face {
   font-family: 'SF Pro Display';
-  src: url('/fonts/SF-Pro-Display-Bold.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Display-Bold.woff') format('woff');
+  src: local('SF Pro Display'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -41,8 +57,12 @@
 /* SF Pro Text - Regular */
 @font-face {
   font-family: 'SF Pro Text';
-  src: url('/fonts/SF-Pro-Text-Regular.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Text-Regular.woff') format('woff');
+  src: local('SF Pro Text'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -51,8 +71,12 @@
 /* SF Pro Text - Medium */
 @font-face {
   font-family: 'SF Pro Text';
-  src: url('/fonts/SF-Pro-Text-Medium.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Text-Medium.woff') format('woff');
+  src: local('SF Pro Text'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -61,8 +85,12 @@
 /* SF Pro Text - Semibold */
 @font-face {
   font-family: 'SF Pro Text';
-  src: url('/fonts/SF-Pro-Text-Semibold.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Text-Semibold.woff') format('woff');
+  src: local('SF Pro Text'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -71,8 +99,12 @@
 /* SF Pro Text - Bold */
 @font-face {
   font-family: 'SF Pro Text';
-  src: url('/fonts/SF-Pro-Text-Bold.woff2') format('woff2'),
-       url('/fonts/SF-Pro-Text-Bold.woff') format('woff');
+  src: local('SF Pro Text'),
+       local('-apple-system'),
+       local('BlinkMacSystemFont'),
+       local('Arial'),
+       local('Helvetica'),
+       local('sans-serif');
   font-weight: 700;
   font-style: normal;
   font-display: swap;

@@ -1,21 +1,67 @@
+/* Fallback fonts for SF Pro Display */
 @font-face {
-  font-family: 'SF Pro Display Fallback';
-  src: local('SF Pro Display'),
-       local('SF Pro'),
-       local('-apple-system'),
-       local('BlinkMacSystemFont');
+  font-family: 'SF Pro Display';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'SF Pro Text Fallback';
-  src: local('SF Pro Text'),
-       local('SF Pro'),
-       local('-apple-system'),
-       local('BlinkMacSystemFont');
+  font-family: 'SF Pro Display';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fallback fonts for SF Pro Text */
+@font-face {
+  font-family: 'SF Pro Text';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: local('Arial'), local('Helvetica'), local('sans-serif');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
