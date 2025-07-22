@@ -18,7 +18,12 @@
     "delete:dev": "pm2 delete giftassets-dev",
     "logs": "pm2 logs giftassets",
     "logs:dev": "pm2 logs giftassets-dev",
-    "monit": "pm2 monit"
+    "monit": "pm2 monit",
+    "deploy": "./deploy.sh production",
+    "deploy:dev": "./deploy.sh development",
+    "build:analyze": "vite build --mode analyze",
+    "test:build": "npm run build && npm run preview",
+    "clean": "rm -rf dist node_modules package-lock.json && npm install"
   },
   "dependencies": {
     "react": "^19.1.0",
